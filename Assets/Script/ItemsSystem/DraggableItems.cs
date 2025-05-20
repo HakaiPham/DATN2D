@@ -7,6 +7,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public Transform parentToReturnTo = null;
     private Canvas canvas;
+    private Transform originalParent;
 
     private void Awake()
     {
@@ -15,6 +16,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        originalParent = transform.parent;
         parentToReturnTo = transform.parent;
         transform.SetParent(canvas.transform); // Đưa lên top canvas
         GetComponent<CanvasGroup>().blocksRaycasts = false;
@@ -27,7 +29,20 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.SetParent(parentToReturnTo); // Trả về vị trí ban đầu nếu không thả đúng
+        transform.SetParent(parentToReturnTo); // Trả về nếu không thả đúng chỗ
+        transform.localPosition = Vector3.zero;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
+
+        // Nếu thả ra ngoài slot (parent không thay đổi → chưa bị xử lý bởi OnDrop)
+        if (transform.parent == originalParent)
+        {
+            UpgradeSlot upgradeSlot = originalParent.GetComponent<UpgradeSlot>();
+            if (upgradeSlot != null)
+            {
+                upgradeSlot.ClearSlot(); // Xóa khỏi slot & reset UI
+            }
+        }
     }
 }
+
+

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 
 public class UpgradeUI : MonoBehaviour
 {
@@ -14,69 +15,75 @@ public class UpgradeUI : MonoBehaviour
     public TextMeshProUGUI materialsText;
     public TextMeshProUGUI upgradeStatusText;
 
-    public UpgradeSlot upgradeSlot; // <- lấy item từ slot
+    public UpgradeSlot upgradeSlot;
 
     private string currentItemName = "";
+    private Coroutine clearStatusCoroutine;
 
     void Start()
     {
         gameObject.SetActive(false);
         upgradeButton.onClick.AddListener(OnUpgradeClick);
-        UpdateUI();
+
+        upgradeButton.interactable = false;
+        upgradeStatusText.text = "";
+        levelText.text = "";
+        materialsText.text = "";
+
+        UpdateCurrencyAndMaterialUI();
     }
 
     public void SetItemName(string newItemName)
     {
         currentItemName = newItemName;
-        upgradeButton.interactable = true;
-        UpdateUIWithResult(currentItemName, UpgradeResult.Success); // chỉ để hiển thị level, không nâng cấp
+        upgradeButton.interactable = !string.IsNullOrEmpty(newItemName);
+
+        ClearUpgradeStatusImmediate();
+
+        if (string.IsNullOrEmpty(newItemName))
+        {
+            levelText.text = "";
+            return;
+        }
+
+        UpdateUIWithResult(currentItemName, UpgradeResult.Success, false); // Chỉ hiển thị level
     }
 
     void OnUpgradeClick()
     {
         if (string.IsNullOrEmpty(currentItemName))
         {
-            upgradeStatusText.text = "Vui lòng thả một trang bị vào trước!";
+            SetUpgradeStatusText("Vui lòng thả một trang bị vào trước!");
             return;
         }
 
         UpgradeResult result = upgradeManager.UpgradeItem(currentItemName);
-        UpdateUIWithResult(currentItemName, result);
+        UpdateUIWithResult(currentItemName, result, true);
     }
 
-    public void UpdateUIWithResult(string itemName, UpgradeResult result)
+    public void UpdateUIWithResult(string itemName, UpgradeResult result, bool showStatus)
     {
         int level = upgradeManager.GetItemLevel(itemName);
         levelText.text = $"{itemName} Level: {level}";
 
-        if (currencyManager != null)
-            goldText.text = $"Gold: {currencyManager.gold}";
+        UpdateCurrencyAndMaterialUI();
 
-        if (materialManager != null)
+        if (showStatus)
         {
-            materialsText.text = "";
-            foreach (var mat in materialManager.materials)
-                materialsText.text += $"{mat.Key}: {mat.Value}\n";
-        }
+            string message = result switch
+            {
+                UpgradeResult.Success => "Nâng cấp thành công!",
+                UpgradeResult.MaxLevel => "Đã đạt cấp tối đa!",
+                UpgradeResult.NotEnoughGold => "Không đủ vàng!",
+                UpgradeResult.NotEnoughMaterials => "Không đủ vật liệu!",
+                _ => ""
+            };
 
-        switch (result)
-        {
-            case UpgradeResult.Success:
-                upgradeStatusText.text = "Nâng cấp thành công!";
-                break;
-            case UpgradeResult.MaxLevel:
-                upgradeStatusText.text = "Đã đạt cấp tối đa!";
-                break;
-            case UpgradeResult.NotEnoughGold:
-                upgradeStatusText.text = "Không đủ vàng!";
-                break;
-            case UpgradeResult.NotEnoughMaterials:
-                upgradeStatusText.text = "Không đủ vật liệu!";
-                break;
+            SetUpgradeStatusText(message);
         }
     }
 
-    void UpdateUI()
+    void UpdateCurrencyAndMaterialUI()
     {
         if (currencyManager != null)
             goldText.text = $"Gold: {currencyManager.gold}";
@@ -89,4 +96,30 @@ public class UpgradeUI : MonoBehaviour
         }
     }
 
+    void SetUpgradeStatusText(string message)
+    {
+        upgradeStatusText.text = message;
+
+        if (clearStatusCoroutine != null)
+            StopCoroutine(clearStatusCoroutine);
+
+        clearStatusCoroutine = StartCoroutine(ClearUpgradeStatusAfterDelay(2.5f));
+    }
+
+    IEnumerator ClearUpgradeStatusAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        upgradeStatusText.text = "";
+        clearStatusCoroutine = null;
+    }
+
+    void ClearUpgradeStatusImmediate()
+    {
+        if (clearStatusCoroutine != null)
+        {
+            StopCoroutine(clearStatusCoroutine);
+            clearStatusCoroutine = null;
+        }
+        upgradeStatusText.text = "";
+    }
 }
