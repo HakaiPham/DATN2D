@@ -2,8 +2,8 @@
 
 public class UpgradeNPC : MonoBehaviour
 {
-    public GameObject upgradeUI; // Giao diện nâng cấp cần bật/tắt
-    public KeyCode interactKey = KeyCode.E; // Phím tương tác
+    public GameObject upgradeUI; // Gán vào UI nâng cấp trong Inspector
+    public KeyCode interactKey = KeyCode.E;
 
     private bool playerInRange = false;
 
@@ -24,7 +24,6 @@ public class UpgradeNPC : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-            // Bạn có thể hiển thị "Nhấn E để nâng cấp" ở đây nếu muốn
         }
     }
 
@@ -34,11 +33,8 @@ public class UpgradeNPC : MonoBehaviour
         {
             playerInRange = false;
 
-            // Tự động tắt UI khi rời khỏi vùng NPC
             if (upgradeUI != null && upgradeUI.activeSelf)
-            {
                 upgradeUI.SetActive(false);
-            }
         }
     }
 }
