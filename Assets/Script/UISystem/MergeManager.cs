@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections;
 using System.Collections.Generic;
 
 public class MergeManager : MonoBehaviour
@@ -13,6 +14,8 @@ public class MergeManager : MonoBehaviour
     public TextMeshProUGUI mergeStatusText;
 
     public UpgradeManager upgradeManager; // xử lý cấp đồ
+
+    private Coroutine hideTextCoroutine;
 
     private void Start()
     {
@@ -34,7 +37,7 @@ public class MergeManager : MonoBehaviour
 
         if (itemNames.Count < 3)
         {
-            mergeStatusText.text = "Cần 3 món giống nhau để ghép!";
+            ShowStatus("Cần 3 món giống nhau để ghép!");
             return;
         }
 
@@ -49,23 +52,23 @@ public class MergeManager : MonoBehaviour
                 foreach (var slot in mergeSlots)
                     slot.ClearSlot();
 
-                mergeStatusText.text = "Ghép thành công!";
+                ShowStatus("Ghép thành công!");
 
                 // Spawn item kết quả
                 GameObject newItem = Instantiate(resultItemPrefab, resultSlot);
                 DraggableItem dragItem = newItem.GetComponent<DraggableItem>();
                 dragItem.itemName = baseItem;
-                dragItem.parentToReturnTo = resultSlot; // ✅ Cho phép kéo về đúng slot nếu không thả
+                dragItem.parentToReturnTo = resultSlot;
                 newItem.transform.localPosition = Vector3.zero;
             }
             else
             {
-                mergeStatusText.text = "Không thể ghép (đã đạt cấp tối đa)!";
+                ShowStatus("Không thể ghép (đã đạt cấp tối đa)!");
             }
         }
         else
         {
-            mergeStatusText.text = "3 món phải giống nhau!";
+            ShowStatus("3 món phải giống nhau!");
         }
     }
 
@@ -75,5 +78,21 @@ public class MergeManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+    }
+
+    void ShowStatus(string message)
+    {
+        mergeStatusText.text = message;
+
+        if (hideTextCoroutine != null)
+            StopCoroutine(hideTextCoroutine);
+
+        hideTextCoroutine = StartCoroutine(HideTextAfterSeconds(2f)); // ẩn sau 2 giây
+    }
+
+    IEnumerator HideTextAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        mergeStatusText.text = "";
     }
 }
