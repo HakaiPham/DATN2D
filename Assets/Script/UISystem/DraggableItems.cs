@@ -17,7 +17,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public void OnBeginDrag(PointerEventData eventData)
     {
         originalParent = transform.parent;
-        parentToReturnTo = transform.parent;
+        parentToReturnTo = transform.parent; // Lưu lại nơi bắt đầu kéo
         transform.SetParent(canvas.transform); // Đưa lên top canvas
         GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
@@ -36,13 +36,19 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         // Nếu thả ra ngoài slot (parent không thay đổi → chưa bị xử lý bởi OnDrop)
         if (transform.parent == originalParent)
         {
+            // Nếu original parent là UpgradeSlot, Clear nó
             UpgradeSlot upgradeSlot = originalParent.GetComponent<UpgradeSlot>();
             if (upgradeSlot != null)
             {
-                upgradeSlot.ClearSlot(); // Xóa khỏi slot & reset UI
+                upgradeSlot.ClearSlot();
+            }
+
+            // Nếu là MergeSlot
+            MergeSlot mergeSlot = originalParent.GetComponent<MergeSlot>();
+            if (mergeSlot != null)
+            {
+                mergeSlot.ClearSlot();
             }
         }
     }
 }
-
-

@@ -77,4 +77,22 @@ public class UpgradeManager : MonoBehaviour
     {
         return itemLevels.ContainsKey(itemName) ? itemLevels[itemName] : 0;
     }
+    public void SetItemLevel(string itemName, int level)
+    {
+        itemLevels[itemName] = level;
+    }
+
+    public bool MergeItems(string baseItemName)
+    {
+        // Ví dụ: tạo item mới có cấp cao hơn
+        int currentLevel = GetItemLevel(baseItemName);
+
+        if (currentLevel >= maxLevel) return false;
+
+        SetItemLevel(baseItemName, currentLevel + 1); // Nâng bậc
+
+        // Có thể tạo item mới hoặc trả về prefab khác tùy logic game
+        return true;
+    }
+
 }
