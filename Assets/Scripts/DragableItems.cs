@@ -1,10 +1,13 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 
 public class DragableItems : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    Transform parentAfterDrag;
-
+    public UnityEngine.UI.Image image;
+    [HideInInspector] public Transform parentAfterDrag;
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -12,6 +15,7 @@ public class DragableItems : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         parentAfterDrag = transform.parent;
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
+        image.raycastTarget = false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -24,5 +28,6 @@ public class DragableItems : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         Debug.Log("End Drag");
         transform.SetParent(parentAfterDrag);
+        image.raycastTarget = true;
     }
 }
