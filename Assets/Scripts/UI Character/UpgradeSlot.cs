@@ -10,6 +10,7 @@ public class UpgradeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     void Awake()
     {
         detailPanel.SetActive(false);
+        selection.SetActive(false);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

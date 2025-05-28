@@ -9,6 +9,7 @@ public class SkillSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     void Awake()
     {
         detailPanel.SetActive(false);
+        selection.SetActive(false);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
