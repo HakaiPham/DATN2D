@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b8c9133ae89d01c46b27a856e33d7c90
+guid: 8240120bd2ef2b546a3c2cae60bf2e63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1813978609571329657
-    second: Trail_0
+      213: -74455016158002584
+    second: Knight_0006_Layer-1_0
+  - first:
+      213: 7732669608984480691
+    second: Knight_0006_Layer-1_1
+  - first:
+      213: 5471822162197084779
+    second: Knight_0006_Layer-1_2
+  - first:
+      213: -3619012225189163447
+    second: Knight_0006_Layer-1_3
+  - first:
+      213: -3410242727473222784
+    second: Knight_0006_Layer-1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,13 +190,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trail_0
+      name: Knight_0006_Layer-1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 2048
-        height: 2048
+        y: 819
+        width: 688
+        height: 558
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +205,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 976f7ad3feb8c2910800000000000000
-      internalID: 1813978609571329657
+      spriteID: 862082aae8b77fef0800000000000000
+      internalID: -74455016158002584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_0006_Layer-1_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 775
+        width: 620
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb8af83a06ff4b60800000000000000
+      internalID: 7732669608984480691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_0006_Layer-1_2
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 785
+        width: 370
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6afddbf341dfeb40800000000000000
+      internalID: 5471822162197084779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_0006_Layer-1_3
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 775
+        width: 253
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ecdc73e8fa6cdc0800000000000000
+      internalID: -3619012225189163447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_0006_Layer-1_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 1225
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b691fbe426ca0d0800000000000000
+      internalID: -3410242727473222784
       vertices: []
       indices: 
       edges: []
@@ -212,8 +312,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Trail_0: 1813978609571329657
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

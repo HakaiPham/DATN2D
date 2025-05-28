@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b8c9133ae89d01c46b27a856e33d7c90
+guid: 0aea8cea1b13b214783c89eaac4f624c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1813978609571329657
-    second: Trail_0
+      213: 731360984498593037
+    second: Knight_0003_Layer-7_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -178,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trail_0
+      name: Knight_0003_Layer-7_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2048
-        height: 2048
+        width: 97
+        height: 247
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 976f7ad3feb8c2910800000000000000
-      internalID: 1813978609571329657
+      spriteID: d0d5e93c0f0562a00800000000000000
+      internalID: 731360984498593037
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Trail_0: 1813978609571329657
+      Knight_0003_Layer-7_0: 731360984498593037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
