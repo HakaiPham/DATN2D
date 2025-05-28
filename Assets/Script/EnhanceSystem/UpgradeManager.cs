@@ -84,14 +84,12 @@ public class UpgradeManager : MonoBehaviour
 
     public bool MergeItems(string baseItemName)
     {
-        // Ví dụ: tạo item mới có cấp cao hơn
+       
         int currentLevel = GetItemLevel(baseItemName);
 
         if (currentLevel >= maxLevel) return false;
 
-        SetItemLevel(baseItemName, currentLevel + 1); // Nâng bậc
-
-        // Có thể tạo item mới hoặc trả về prefab khác tùy logic game
+        SetItemLevel(baseItemName, currentLevel + 1); 
         return true;
     }
 

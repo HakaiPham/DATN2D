@@ -11,37 +11,42 @@ public class UpgradeSlot : MonoBehaviour, IDropHandler
         DraggableItem droppedItem = eventData.pointerDrag?.GetComponent<DraggableItem>();
         if (droppedItem != null)
         {
+            // Cập nhật nơi item sẽ quay lại nếu không thả đúng
             droppedItem.parentToReturnTo = transform;
+
+            // Gán lại parent của item
             droppedItem.transform.SetParent(transform);
             droppedItem.transform.localPosition = Vector3.zero;
 
+            // Lưu tên item
             currentItemName = droppedItem.itemName;
+
             Debug.Log("Item đã được đặt vào slot nâng cấp: " + currentItemName);
 
-            if (upgradeUI != null)
-                upgradeUI.SetItemName(currentItemName);
+            // Cập nhật UI
+            upgradeUI?.SetItemName(currentItemName);
         }
     }
 
     public void ClearSlot()
     {
         currentItemName = null;
+        upgradeUI?.SetItemName("");
 
-        // Xóa UI liên quan
-        if (upgradeUI != null)
-        {
-            upgradeUI.SetItemName(""); // Reset tên trong UI
-        }
-
-        // Xóa item game object khỏi slot nếu nó còn nằm trong slot
         foreach (Transform child in transform)
         {
-            if (child.GetComponent<DraggableItem>() != null)
+            if (child.TryGetComponent(out DraggableItem item))
             {
-                // Nếu item này hiện vẫn là con của slot thì mới destroy
-                if (child.parent == transform)
+                if (item.originalParent != null)
                 {
-                    GameObject.Destroy(child.gameObject);
+                    child.SetParent(item.originalParent);
+                    child.localPosition = Vector3.zero;
+                    item.parentToReturnTo = item.originalParent; // Cập nhật lại điểm về
+                }
+                else
+                {
+                    child.SetParent(transform.root);
+                    child.localPosition = Vector3.zero;
                 }
             }
         }

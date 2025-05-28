@@ -6,8 +6,9 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public string itemName;
 
     public Transform parentToReturnTo = null;
+    public Transform originalParent = null; // Lưu chỗ gốc ban đầu (ItemHolder)
+
     private Canvas canvas;
-    private Transform originalParent;
 
     private void Awake()
     {
@@ -16,9 +17,12 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        originalParent = transform.parent;
-        parentToReturnTo = transform.parent; // Lưu lại nơi bắt đầu kéo
-        transform.SetParent(canvas.transform); // Đưa lên top canvas
+        if (originalParent == null)
+            originalParent = transform.parent; // Lưu nơi item được spawn ban đầu (ItemHolder)
+
+        parentToReturnTo = transform.parent;
+
+        transform.SetParent(canvas.transform); // Đưa lên top
         GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
@@ -29,25 +33,18 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.SetParent(parentToReturnTo); // Trả về nếu không thả đúng chỗ
+        transform.SetParent(parentToReturnTo);
         transform.localPosition = Vector3.zero;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 
-        // Nếu thả ra ngoài slot (parent không thay đổi → chưa bị xử lý bởi OnDrop)
-        if (transform.parent == originalParent)
+        // Nếu không drop vào slot mới → trả lại nơi ban đầu
+        if (transform.parent == canvas.transform)
         {
-            // Nếu original parent là UpgradeSlot, Clear nó
-            UpgradeSlot upgradeSlot = originalParent.GetComponent<UpgradeSlot>();
-            if (upgradeSlot != null)
+            if (originalParent != null)
             {
-                upgradeSlot.ClearSlot();
-            }
-
-            // Nếu là MergeSlot
-            MergeSlot mergeSlot = originalParent.GetComponent<MergeSlot>();
-            if (mergeSlot != null)
-            {
-                mergeSlot.ClearSlot();
+                transform.SetParent(originalParent);
+                parentToReturnTo = originalParent;
+                transform.localPosition = Vector3.zero;
             }
         }
     }

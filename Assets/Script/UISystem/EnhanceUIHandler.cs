@@ -9,6 +9,8 @@ public class UpgradeUI : MonoBehaviour
     public CurrencyManager currencyManager;
     public MaterialManager materialManager;
 
+    public UITextFader statusTextFader;
+
     public Button upgradeButton;
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI goldText;
@@ -98,28 +100,12 @@ public class UpgradeUI : MonoBehaviour
 
     void SetUpgradeStatusText(string message)
     {
-        upgradeStatusText.text = message;
-
-        if (clearStatusCoroutine != null)
-            StopCoroutine(clearStatusCoroutine);
-
-        clearStatusCoroutine = StartCoroutine(ClearUpgradeStatusAfterDelay(2.5f));
-    }
-
-    IEnumerator ClearUpgradeStatusAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        upgradeStatusText.text = "";
-        clearStatusCoroutine = null;
+        statusTextFader?.ShowText(message, 2.5f);
     }
 
     void ClearUpgradeStatusImmediate()
     {
-        if (clearStatusCoroutine != null)
-        {
-            StopCoroutine(clearStatusCoroutine);
-            clearStatusCoroutine = null;
-        }
-        upgradeStatusText.text = "";
+        statusTextFader?.ClearNow();
     }
+
 }
