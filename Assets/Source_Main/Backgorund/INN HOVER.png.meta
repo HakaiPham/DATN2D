@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9aaabfd9b48193f49b51310cbb086caf
+guid: 661baf987a605794cbe38df92c853ace
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6114369922934684547
-    second: z6648361584156_91b6ba978dafbd2052f73bc11d4c181a_0004_Layer-5_0
+      213: 6905860895271149236
+    second: INN HOVER_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: z6648361584156_91b6ba978dafbd2052f73bc11d4c181a_0004_Layer-5_0
+      name: INN HOVER_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 215
-        height: 325
+        x: 37
+        y: 94
+        width: 462
+        height: 525
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38bbad1bc0b9ad450800000000000000
-      internalID: 6114369922934684547
+      spriteID: 4bed5ea35eb86df50800000000000000
+      internalID: 6905860895271149236
       vertices: []
       indices: 
       edges: []
