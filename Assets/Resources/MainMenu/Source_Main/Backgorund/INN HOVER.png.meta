@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      INN HOVER_0: 6905860895271149236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
