@@ -1,25 +1,31 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems; // Để dùng IPointerClickHandler
+using UnityEngine.EventSystems;
 
 public class ButtonShop : MonoBehaviour, IPointerClickHandler
 {
-    public GameObject menuToShow; // Kéo menu UI vào đây trong Inspector
+    public GameObject menuToShow;
 
-    // Hàm sẽ tự động được gọi khi ảnh được click
+    private void Start()
+    {
+        if (menuToShow != null)
+        {
+            menuToShow.SetActive(false); // Ẩn menu lúc bắt đầu
+        }
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (menuToShow != null)
         {
-            // Bật / tắt menu mỗi lần click
-            menuToShow.SetActive(!menuToShow.activeSelf);
+            menuToShow.SetActive(!menuToShow.activeSelf); // Bật / tắt khi click
         }
     }
+
     public void CloseShop()
     {
         if (menuToShow != null)
         {
-            menuToShow.SetActive(false); // Tắt menu
+            menuToShow.SetActive(false);
         }
     }
-
 }
