@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Forged HOVVER_0: -677951328387144917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
