@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+ancestors_pen_0: 4505225250711826275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+ancestors_moustache_cream_0: -1176153183659842119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

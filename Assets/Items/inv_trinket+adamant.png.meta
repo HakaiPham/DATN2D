@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+adamant_0: -5074707603223568196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

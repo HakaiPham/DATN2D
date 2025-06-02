@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+archers_ring_0: 4691867003526759361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

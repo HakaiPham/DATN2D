@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+ajs_growling_tome_of_madness_0: -5856429108616829109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

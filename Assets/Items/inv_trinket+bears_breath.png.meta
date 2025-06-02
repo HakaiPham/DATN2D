@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+bears_breath_0: 6064990000599499678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

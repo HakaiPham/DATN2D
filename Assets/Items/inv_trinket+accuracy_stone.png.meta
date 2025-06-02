@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+accuracy_stone_0: 2656504658309354957
+      inv_trinket+accuracy_stone_1: 8615508319925018422
+      inv_trinket+accuracy_stone_2: -2137185413389821708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

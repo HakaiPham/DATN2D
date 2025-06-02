@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+agility_whistle_0: -8857995790638732874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

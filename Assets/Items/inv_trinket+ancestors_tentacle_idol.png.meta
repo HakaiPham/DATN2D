@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+ancestors_tentacle_idol_0: 695633717576699117
+      inv_trinket+ancestors_tentacle_idol_1: -2982130020216675695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

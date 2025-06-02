@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+arzacs_tome_of_incantations_0: -4571026555160826455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

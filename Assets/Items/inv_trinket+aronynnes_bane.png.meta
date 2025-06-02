@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+aronynnes_bane_0: -8575536326553525825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
