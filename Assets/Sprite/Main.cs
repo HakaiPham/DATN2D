@@ -2,12 +2,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-public class Main : MonoBehaviour,IPointerEnterHandler, IPointerExitHandler
+using Unity.VisualScripting;
+public class Main : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private Image buttonImage;
 
     public AudioClip VideoClip;
     public AudioSource ButtonSoure;
+    public GameObject activePanel;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -28,5 +30,24 @@ public class Main : MonoBehaviour,IPointerEnterHandler, IPointerExitHandler
         buttonImage.color = new Color(1, 1, 1, 0);
     }
 
-    
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (!activePanel.activeInHierarchy)
+        {
+            activePanel.SetActive(true);
+        }
+        else
+        {
+            activePanel.SetActive(false);
+        }
+    }
+
+    void Update()
+    {
+        if (activePanel.activeInHierarchy && Input.GetMouseButtonDown(1))
+        {
+            activePanel.SetActive(false);
+        }
+    }
+
 }

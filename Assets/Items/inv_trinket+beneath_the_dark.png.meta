@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+beneath_the_dark_0: -8207736174698789530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+arbalest_accolade_0: 7873884547638685974
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

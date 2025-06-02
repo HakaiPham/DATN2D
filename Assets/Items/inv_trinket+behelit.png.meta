@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+behelit_0: -279030334432733316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

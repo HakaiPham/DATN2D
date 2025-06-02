@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+amulet_of_superior_asphyxiation_0: 3484134401793829894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

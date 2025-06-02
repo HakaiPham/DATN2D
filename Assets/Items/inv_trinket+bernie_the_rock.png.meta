@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+bernie_the_rock_0: -9135694484405054217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

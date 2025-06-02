@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+aurora_pendant_0: -1085550413618940691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

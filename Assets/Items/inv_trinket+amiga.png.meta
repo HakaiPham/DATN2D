@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+amiga_0: 2159865313182998230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

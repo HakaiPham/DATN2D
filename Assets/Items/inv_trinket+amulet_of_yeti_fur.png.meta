@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+amulet_of_yeti_fur_0: 8095908647206993690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

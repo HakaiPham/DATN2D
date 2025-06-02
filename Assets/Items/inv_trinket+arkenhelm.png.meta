@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+arkenhelm_0: -2681688878964647885
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

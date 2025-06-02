@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+beloveds_ring_0: -7414180508356168036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

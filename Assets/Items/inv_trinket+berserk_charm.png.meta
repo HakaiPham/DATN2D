@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+berserk_charm_0: -3751740399886282037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

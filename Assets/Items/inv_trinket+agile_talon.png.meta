@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inv_trinket+agile_talon_0: 2590682703597178374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
