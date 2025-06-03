@@ -1,55 +1,29 @@
-﻿using UnityEngine;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class UpgradeSlot : MonoBehaviour, IDropHandler
+public class UpgradeSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public string currentItemName;
-    public UpgradeUI upgradeUI;
+    public GameObject detailPanel;
+    public GameObject selection;
 
-    public void OnDrop(PointerEventData eventData)
+    void Awake()
     {
-        DraggableItem droppedItem = eventData.pointerDrag?.GetComponent<DraggableItem>();
-        if (droppedItem != null)
-        {
-            // Cập nhật nơi item sẽ quay lại nếu không thả đúng
-            droppedItem.parentToReturnTo = transform;
-
-            // Gán lại parent của item
-            droppedItem.transform.SetParent(transform);
-            droppedItem.transform.localPosition = Vector3.zero;
-
-            // Lưu tên item
-            currentItemName = droppedItem.itemName;
-
-            Debug.Log("Item đã được đặt vào slot nâng cấp: " + currentItemName);
-
-            // Cập nhật UI
-            upgradeUI?.SetItemName(currentItemName);
-        }
+        detailPanel.SetActive(false);
+        selection.SetActive(false);
     }
 
-    public void ClearSlot()
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        currentItemName = null;
-        upgradeUI?.SetItemName("");
-
-        foreach (Transform child in transform)
-        {
-            if (child.TryGetComponent(out DraggableItem item))
-            {
-                if (item.originalParent != null)
-                {
-                    child.SetParent(item.originalParent);
-                    child.localPosition = Vector3.zero;
-                    item.parentToReturnTo = item.originalParent; // Cập nhật lại điểm về
-                }
-                else
-                {
-                    child.SetParent(transform.root);
-                    child.localPosition = Vector3.zero;
-                }
-            }
-        }
+        Debug.Log("Mouse Over");
+        selection.SetActive(true);
+        detailPanel.SetActive(true);
     }
 
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Debug.Log("Mouse Exit");
+        detailPanel.SetActive(false);
+        selection.SetActive(false);
+    }
 }

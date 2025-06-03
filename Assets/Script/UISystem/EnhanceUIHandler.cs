@@ -24,7 +24,7 @@ public class UpgradeUI : MonoBehaviour
 
     void Start()
     {
-        gameObject.SetActive(false);
+        gameObject.SetActive(true);
         upgradeButton.onClick.AddListener(OnUpgradeClick);
 
         upgradeButton.interactable = false;
@@ -55,7 +55,7 @@ public class UpgradeUI : MonoBehaviour
     {
         if (string.IsNullOrEmpty(currentItemName))
         {
-            SetUpgradeStatusText("Vui lòng thả một trang bị vào trước!");
+            SetUpgradeStatusText("Place an item first");
             return;
         }
 
@@ -74,10 +74,10 @@ public class UpgradeUI : MonoBehaviour
         {
             string message = result switch
             {
-                UpgradeResult.Success => "Nâng cấp thành công!",
-                UpgradeResult.MaxLevel => "Đã đạt cấp tối đa!",
-                UpgradeResult.NotEnoughGold => "Không đủ vàng!",
-                UpgradeResult.NotEnoughMaterials => "Không đủ vật liệu!",
+                UpgradeResult.Success => "Upgrade Successfully!",
+                UpgradeResult.MaxLevel => "Maxed",
+                UpgradeResult.NotEnoughGold => "Not enough gold!",
+                UpgradeResult.NotEnoughMaterials => "Not enough materials!",
                 _ => ""
             };
 
