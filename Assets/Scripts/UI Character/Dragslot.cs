@@ -9,4 +9,6 @@ public class Dragslot : MonoBehaviour, IDropHandler
         DragableItems dragableItem = dropped.GetComponent<DragableItems>();
         dragableItem.parentAfterDrag = transform;
     }
+
+    
 }
