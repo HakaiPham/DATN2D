@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 208.72516, y: 77.55561}
-  m_SizeDelta: {x: 1754.9993, y: 919.3533}
+  m_AnchoredPosition: {x: 209, y: 77.55561}
+  m_SizeDelta: {x: 1802.74, y: 919.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2924981844057417221
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1198477067713850731, guid: 4f358900077cec34aa7dc0f892cc0c78, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 6014986504787595213}
   - component: {fileID: 581669235554615507}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: SkillSlots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 281741346678310651}
   - component: {fileID: 8174081892512196540}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: TrinketSlots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7065124438765662299}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -208.72516, y: -77.5556, z: -6.320631}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1198477067713850731, guid: 4f358900077cec34aa7dc0f892cc0c78, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -756,6 +756,10 @@ PrefabInstance:
       propertyPath: detailPanel
       value: 
       objectReference: {fileID: 6207188002283614587}
+    - target: {fileID: 4986137767286325213, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5755676337065112702, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
       propertyPath: m_Name
       value: S3
@@ -862,6 +866,10 @@ PrefabInstance:
       propertyPath: detailPanel
       value: 
       objectReference: {fileID: 6207188002283614587}
+    - target: {fileID: 4986137767286325213, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5755676337065112702, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
       propertyPath: m_Name
       value: P1
@@ -968,6 +976,10 @@ PrefabInstance:
       propertyPath: detailPanel
       value: 
       objectReference: {fileID: 6207188002283614587}
+    - target: {fileID: 4986137767286325213, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5755676337065112702, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
       propertyPath: m_Name
       value: S2
@@ -1176,6 +1188,10 @@ PrefabInstance:
       propertyPath: detailPanel
       value: 
       objectReference: {fileID: 6207188002283614587}
+    - target: {fileID: 4986137767286325213, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5755676337065112702, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
       propertyPath: m_Name
       value: S1
@@ -1393,6 +1409,10 @@ PrefabInstance:
       propertyPath: detailPanel
       value: 
       objectReference: {fileID: 6207188002283614587}
+    - target: {fileID: 4986137767286325213, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5755676337065112702, guid: 9d241ac612aece6408f3615b1247e47a, type: 3}
       propertyPath: m_Name
       value: P2
