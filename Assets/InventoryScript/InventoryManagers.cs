@@ -1,17 +1,29 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class InventoryManagers : MonoBehaviour
 {
     public List<InventorySlot> slots;
+    public List<InventorySlotUI> inventorySlotUIs;
+    public GameObject inventoryCanvas;
+
+    private bool isInventoryOpen = false;
 
     public void AddItem(ItemData itemData, int amount = 1)
     {
+        if (itemData == null)
+        {
+            Debug.LogWarning("Không thể thêm item null.");
+            return;
+        }
+
         foreach (var slot in slots)
         {
             if (slot.CanAcceptItem(itemData) && slot.currentItem != null && slot.currentItem.data == itemData && itemData.isStackable)
             {
                 slot.currentItem.amount += amount;
+                UpdateDisplay();
                 return;
             }
         }
@@ -21,6 +33,7 @@ public class InventoryManagers : MonoBehaviour
             if (slot.CanAcceptItem(itemData) && slot.currentItem == null)
             {
                 slot.SetItem(new InventoryItem(itemData, amount));
+                UpdateDisplay();
                 return;
             }
         }
@@ -44,6 +57,7 @@ public class InventoryManagers : MonoBehaviour
             toSlot.SetItem(fromSlot.currentItem);
             fromSlot.ClearSlot();
         }
+        UpdateDisplay();
     }
 
     public string SaveInventory()
@@ -89,6 +103,47 @@ public class InventoryManagers : MonoBehaviour
             else
             {
                 slots[i].ClearSlot();
+            }
+        }
+        UpdateDisplay();
+    }
+
+    public int GetQuantity(string itemName)
+    {
+        foreach (var slot in slots)
+        {
+            if (slot.currentItem != null && slot.currentItem.data.itemName == itemName)
+            {
+                return slot.currentItem.amount;
+            }
+        }
+        return 0;
+    }
+
+    private void UpdateDisplay()
+    {
+        for (int i = 0; i < slots.Count; i++)
+        {
+            if (i < inventorySlotUIs.Count)
+            {
+                inventorySlotUIs[i].SetItem(slots[i].currentItem);
+            }
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            isInventoryOpen = !isInventoryOpen;
+
+            if (inventoryCanvas != null)
+            {
+                inventoryCanvas.SetActive(isInventoryOpen);
+                if (isInventoryOpen)
+                {
+                    UpdateDisplay();
+                }
             }
         }
     }
