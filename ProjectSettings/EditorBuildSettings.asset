@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LV_Test.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: 5b999df1a1e096247889501ba78485ba
+  - enabled: 1
+    path: Assets/Scenes/TeamManager.unity
+    guid: 9624aa97dc5c1be4a9cb455705c85a9e
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 4658510b7fddd6d4282c2058e63229a3
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: fd2db81789127634ba614fdde81752ab
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

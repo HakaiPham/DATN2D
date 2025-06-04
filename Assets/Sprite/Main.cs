@@ -49,5 +49,12 @@ public class Main : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
             activePanel.SetActive(false);
         }
     }
-
+    public void ButtonQuestMap()
+    {
+        SceneManager.LoadScene("Scene2");
+    }
+    public void ButtonToSceneTeamManager()
+    {
+        SceneManager.LoadScene("TeamManager");
+    }
 }

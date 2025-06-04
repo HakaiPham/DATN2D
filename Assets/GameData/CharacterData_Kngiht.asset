@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc07707bcf42054418883d6e4c38c64a, type: 3}
+  m_Name: CharacterData_Kngiht
+  m_EditorClassIdentifier: 
+  battlePrefab: {fileID: 7775630732857971750, guid: 13957fa02f1cb3a40b09fa3111163706, type: 3}
+  characterPortrait: {fileID: 0}
+  health: 100
+  magic: 100
+  melee: 10
+  defense: 4
+  magicRange: 25
+  speed: 20
+  experience: 0
