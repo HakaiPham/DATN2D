@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 948622940aa35734c82f5a1252936987
+guid: 4f358900077cec34aa7dc0f892cc0c78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2149116476139124470
-    second: z6665816728177_cc594c4811f1d9355930e63f5989c864_0
+      213: -1198477067713850731
+    second: Panel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: z6665816728177_cc594c4811f1d9355930e63f5989c864_0
+      name: Panel_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1536
-        height: 901
+        x: 71
+        y: 26
+        width: 3400
+        height: 2422
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f6363d6c0233dd10800000000000000
-      internalID: 2149116476139124470
+      spriteID: 592d67be4772e5fe0800000000000000
+      internalID: -1198477067713850731
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d4e48171b999cef49bc078fa95c1d06b
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      z6665816728177_cc594c4811f1d9355930e63f5989c864_0: 2149116476139124470
+      Panel_0: -1198477067713850731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
