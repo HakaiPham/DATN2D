@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: db2bdc41d3c989744a88176cca35a17e
+guid: d9d6a816bbbd2234681be5460cc3f82a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
-  - first:
-      213: 7014286043975846214
-    second: Background_1
-  - first:
-      213: -9078219959484023005
-    second: Background_2
+      213: -7591722849193760877
+    second: 620eb2c1-95ea-4eb5-9464-e8184dd7d244_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -184,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: 620eb2c1-95ea-4eb5-9464-e8184dd7d244_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 138
+        y: 0
         width: 1536
-        height: 738
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,52 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 550
-        width: 159
-        height: 351
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64909246effb75160800000000000000
-      internalID: 7014286043975846214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Background_2
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 494
-        width: 304
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32ff71a9b0fa30280800000000000000
-      internalID: -9078219959484023005
+      spriteID: 397e6949a48c4a690800000000000000
+      internalID: -7591722849193760877
       vertices: []
       indices: 
       edges: []
