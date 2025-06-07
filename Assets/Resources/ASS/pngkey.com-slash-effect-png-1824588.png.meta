@@ -1,0 +1,1167 @@
+fileFormatVersion: 2
+guid: 2f99e743fbb09434eb5883d8df21926d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5882422145145913528
+    second: pngkey.com-slash-effect-png-1824588_0
+  - first:
+      213: -6300937908903033900
+    second: pngkey.com-slash-effect-png-1824588_1
+  - first:
+      213: 8828536994404872141
+    second: pngkey.com-slash-effect-png-1824588_2
+  - first:
+      213: 6702338702296362680
+    second: pngkey.com-slash-effect-png-1824588_3
+  - first:
+      213: -6682977837063699264
+    second: pngkey.com-slash-effect-png-1824588_4
+  - first:
+      213: 1764285827677362089
+    second: pngkey.com-slash-effect-png-1824588_5
+  - first:
+      213: -7676499925667171489
+    second: pngkey.com-slash-effect-png-1824588_6
+  - first:
+      213: -4610341829284054835
+    second: pngkey.com-slash-effect-png-1824588_7
+  - first:
+      213: -4807622374510888494
+    second: pngkey.com-slash-effect-png-1824588_8
+  - first:
+      213: -8978336013485238612
+    second: pngkey.com-slash-effect-png-1824588_9
+  - first:
+      213: 6052153324707889584
+    second: pngkey.com-slash-effect-png-1824588_10
+  - first:
+      213: 7233257361882775396
+    second: pngkey.com-slash-effect-png-1824588_11
+  - first:
+      213: 1051057935124375496
+    second: pngkey.com-slash-effect-png-1824588_12
+  - first:
+      213: -2786424079663805855
+    second: pngkey.com-slash-effect-png-1824588_13
+  - first:
+      213: -5270836827055763616
+    second: pngkey.com-slash-effect-png-1824588_14
+  - first:
+      213: 4647596087080554619
+    second: pngkey.com-slash-effect-png-1824588_15
+  - first:
+      213: -4204451481226446094
+    second: pngkey.com-slash-effect-png-1824588_16
+  - first:
+      213: 7587556264988996744
+    second: pngkey.com-slash-effect-png-1824588_17
+  - first:
+      213: -8322020489707678030
+    second: pngkey.com-slash-effect-png-1824588_18
+  - first:
+      213: -2978691067176935159
+    second: pngkey.com-slash-effect-png-1824588_19
+  - first:
+      213: -7272640622398914520
+    second: pngkey.com-slash-effect-png-1824588_20
+  - first:
+      213: -2774821349200474994
+    second: pngkey.com-slash-effect-png-1824588_21
+  - first:
+      213: -521217735649510540
+    second: pngkey.com-slash-effect-png-1824588_22
+  - first:
+      213: -2860720920134066350
+    second: pngkey.com-slash-effect-png-1824588_23
+  - first:
+      213: 3854436419866937035
+    second: pngkey.com-slash-effect-png-1824588_24
+  - first:
+      213: 231912157327713335
+    second: pngkey.com-slash-effect-png-1824588_25
+  - first:
+      213: -2617045460556914222
+    second: pngkey.com-slash-effect-png-1824588_26
+  - first:
+      213: -8422455251852182921
+    second: pngkey.com-slash-effect-png-1824588_27
+  - first:
+      213: -8416926266983563118
+    second: pngkey.com-slash-effect-png-1824588_28
+  - first:
+      213: 5100816464958898430
+    second: pngkey.com-slash-effect-png-1824588_29
+  - first:
+      213: -8614673952006286805
+    second: pngkey.com-slash-effect-png-1824588_30
+  - first:
+      213: 4240590293080491947
+    second: pngkey.com-slash-effect-png-1824588_31
+  - first:
+      213: 4948833419704021814
+    second: pngkey.com-slash-effect-png-1824588_32
+  - first:
+      213: 1910265078080960377
+    second: pngkey.com-slash-effect-png-1824588_33
+  - first:
+      213: 1943045122129153909
+    second: pngkey.com-slash-effect-png-1824588_34
+  - first:
+      213: -2926063851195900237
+    second: pngkey.com-slash-effect-png-1824588_35
+  - first:
+      213: -5006025053176902272
+    second: pngkey.com-slash-effect-png-1824588_36
+  - first:
+      213: 3607009735510366869
+    second: pngkey.com-slash-effect-png-1824588_37
+  - first:
+      213: -8821538743216696039
+    second: pngkey.com-slash-effect-png-1824588_38
+  - first:
+      213: -8769350144122397428
+    second: pngkey.com-slash-effect-png-1824588_39
+  - first:
+      213: -6304727724572076812
+    second: pngkey.com-slash-effect-png-1824588_40
+  - first:
+      213: -5560230917512243436
+    second: pngkey.com-slash-effect-png-1824588_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 442
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0405c46cf82a150800000000000000
+      internalID: 5882422145145913528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 377
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3ca0c0b529e88a0800000000000000
+      internalID: -6300937908903033900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 377
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfa5edee93458a70800000000000000
+      internalID: 8828536994404872141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 377
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be2aba0a8d730d50800000000000000
+      internalID: 6702338702296362680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 377
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4820ca01b4143a0800000000000000
+      internalID: -6682977837063699264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a717f8dc900c7810800000000000000
+      internalID: 1764285827677362089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 214
+        width: 159
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53bb4c4df7977590800000000000000
+      internalID: -7676499925667171489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 184
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8366c6886c400c0800000000000000
+      internalID: -4610341829284054835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 183
+        width: 187
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9fe091ce4e74db0800000000000000
+      internalID: -4807622374510888494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 186
+        width: 175
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca69d1a07fa866380800000000000000
+      internalID: -8978336013485238612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 165
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1c96512619df350800000000000000
+      internalID: 6052153324707889584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 157
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f70084f31b16460800000000000000
+      internalID: 7233257361882775396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 169
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7a17d8f9b169e00800000000000000
+      internalID: 1051057935124375496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 160
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a4b0a0012a459d0800000000000000
+      internalID: -2786424079663805855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 156
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f4b46f4d93ad6b0800000000000000
+      internalID: -5270836827055763616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 133
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b709ee564049f7040800000000000000
+      internalID: 4647596087080554619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faf12a67a9c6a5c0800000000000000
+      internalID: -4204451481226446094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2
+        width: 134
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88475ffe83a6c4960800000000000000
+      internalID: 7587556264988996744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 149
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b69371e47e328c80800000000000000
+      internalID: -8322020489707678030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 158
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9012a45914099a6d0800000000000000
+      internalID: -2978691067176935159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 158
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82046d2d2e3621b90800000000000000
+      internalID: -7272640622398914520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_21
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 156
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c4cbd3faadd79d0800000000000000
+      internalID: -2774821349200474994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_22
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 89
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3aff1b3344c8f0800000000000000
+      internalID: -521217735649510540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 142
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f51e9da7dac48d0800000000000000
+      internalID: -2860720920134066350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 84
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc64f7f8085bd7530800000000000000
+      internalID: 3854436419866937035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 104
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734ec9cd0eae73300800000000000000
+      internalID: 231912157327713335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_26
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 87
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1e472f4036eabd0800000000000000
+      internalID: -2617045460556914222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_27
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a3ab0929d6d1b80800000000000000
+      internalID: -8422455251852182921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_28
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 120
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2904acba722113b80800000000000000
+      internalID: -8416926266983563118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_29
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 108
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0c652bc8db9c640800000000000000
+      internalID: 5100816464958898430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_30
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 106
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22dad2eea7827880800000000000000
+      internalID: -8614673952006286805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_31
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 102
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba74809676a99da30800000000000000
+      internalID: 4240590293080491947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6333a0276c9cda440800000000000000
+      internalID: 4948833419704021814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 68
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97779dda7ff928a10800000000000000
+      internalID: 1910265078080960377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_34
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 76
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f401f6e3517fa10800000000000000
+      internalID: 1943045122129153909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_35
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 62
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be5b572e688467d0800000000000000
+      internalID: -2926063851195900237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_36
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 78
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d4fa8bcb6078ab0800000000000000
+      internalID: -5006025053176902272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_37
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 46
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a98726e3cae0230800000000000000
+      internalID: 3607009735510366869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_38
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 61
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91519366049939580800000000000000
+      internalID: -8821538743216696039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_39
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 42
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d509481820d4680800000000000000
+      internalID: -8769350144122397428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f41353d98b1188a0800000000000000
+      internalID: -6304727724572076812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-slash-effect-png-1824588_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 5
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417d98c907716d2b0800000000000000
+      internalID: -5560230917512243436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
