@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 0fc888c6b53608244ad29cd332978d3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5816361630273196905
+    second: Background Hero Panel_0
+  - first:
+      213: 817291178166767266
+    second: Background Hero Panel_1
+  - first:
+      213: 625185186921169893
+    second: Background Hero Panel_2
+  - first:
+      213: -8864634424620006335
+    second: Background Hero Panel_3
+  - first:
+      213: 3681789997244492564
+    second: Background Hero Panel_4
+  - first:
+      213: 9214471258181586259
+    second: Background Hero Panel_5
+  - first:
+      213: 994737062704431737
+    second: Background Hero Panel_6
+  - first:
+      213: 3521118888544597180
+    second: Background Hero Panel_7
+  - first:
+      213: 2660114336471464337
+    second: Background Hero Panel_8
+  - first:
+      213: 2783452650639392869
+    second: Background Hero Panel_9
+  - first:
+      213: 1967776624348302177
+    second: Background Hero Panel_10
+  - first:
+      213: 2349066195347555995
+    second: Background Hero Panel_11
+  - first:
+      213: -6240545464514721486
+    second: Background Hero Panel_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background Hero Panel_0
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 891
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79caa56e9e1284fa0800000000000000
+      internalID: -5816361630273196905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aec0b01ff9975b00800000000000000
+      internalID: 817291178166767266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 860
+        width: 562
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3c5497d9a1da800800000000000000
+      internalID: 625185186921169893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 860
+        width: 155
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14443d825fd7af480800000000000000
+      internalID: -8864634424620006335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_4
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 860
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b285bde78581330800000000000000
+      internalID: 3681789997244492564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_5
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 860
+        width: 70
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dc5f8f9c060ef70800000000000000
+      internalID: 9214471258181586259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_6
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 860
+        width: 153
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972c96396140ecd00800000000000000
+      internalID: 994737062704431737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 860
+        width: 416
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb47e9339f68dd030800000000000000
+      internalID: 3521118888544597180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_8
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 860
+        width: 978
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1993e4725ef9ae420800000000000000
+      internalID: 2660114336471464337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_9
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 860
+        width: 148
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5600b7a307fc0a620800000000000000
+      internalID: 2783452650639392869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_10
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 860
+        width: 186
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b09930a62fe4b10800000000000000
+      internalID: 1967776624348302177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_11
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 860
+        width: 342
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96c19f324f899020800000000000000
+      internalID: 2349066195347555995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Hero Panel_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 3113
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239cceeb6f02569a0800000000000000
+      internalID: -6240545464514721486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Background Hero Panel_0: -5816361630273196905
+      Background Hero Panel_1: 817291178166767266
+      Background Hero Panel_10: 1967776624348302177
+      Background Hero Panel_11: 2349066195347555995
+      Background Hero Panel_12: -6240545464514721486
+      Background Hero Panel_2: 625185186921169893
+      Background Hero Panel_3: -8864634424620006335
+      Background Hero Panel_4: 3681789997244492564
+      Background Hero Panel_5: 9214471258181586259
+      Background Hero Panel_6: 994737062704431737
+      Background Hero Panel_7: 3521118888544597180
+      Background Hero Panel_8: 2660114336471464337
+      Background Hero Panel_9: 2783452650639392869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
