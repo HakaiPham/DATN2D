@@ -219,6 +219,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1159,7 +1172,49 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngkey.com-slash-effect-png-1824588_0: 5882422145145913528
+      pngkey.com-slash-effect-png-1824588_1: -6300937908903033900
+      pngkey.com-slash-effect-png-1824588_10: 6052153324707889584
+      pngkey.com-slash-effect-png-1824588_11: 7233257361882775396
+      pngkey.com-slash-effect-png-1824588_12: 1051057935124375496
+      pngkey.com-slash-effect-png-1824588_13: -2786424079663805855
+      pngkey.com-slash-effect-png-1824588_14: -5270836827055763616
+      pngkey.com-slash-effect-png-1824588_15: 4647596087080554619
+      pngkey.com-slash-effect-png-1824588_16: -4204451481226446094
+      pngkey.com-slash-effect-png-1824588_17: 7587556264988996744
+      pngkey.com-slash-effect-png-1824588_18: -8322020489707678030
+      pngkey.com-slash-effect-png-1824588_19: -2978691067176935159
+      pngkey.com-slash-effect-png-1824588_2: 8828536994404872141
+      pngkey.com-slash-effect-png-1824588_20: -7272640622398914520
+      pngkey.com-slash-effect-png-1824588_21: -2774821349200474994
+      pngkey.com-slash-effect-png-1824588_22: -521217735649510540
+      pngkey.com-slash-effect-png-1824588_23: -2860720920134066350
+      pngkey.com-slash-effect-png-1824588_24: 3854436419866937035
+      pngkey.com-slash-effect-png-1824588_25: 231912157327713335
+      pngkey.com-slash-effect-png-1824588_26: -2617045460556914222
+      pngkey.com-slash-effect-png-1824588_27: -8422455251852182921
+      pngkey.com-slash-effect-png-1824588_28: -8416926266983563118
+      pngkey.com-slash-effect-png-1824588_29: 5100816464958898430
+      pngkey.com-slash-effect-png-1824588_3: 6702338702296362680
+      pngkey.com-slash-effect-png-1824588_30: -8614673952006286805
+      pngkey.com-slash-effect-png-1824588_31: 4240590293080491947
+      pngkey.com-slash-effect-png-1824588_32: 4948833419704021814
+      pngkey.com-slash-effect-png-1824588_33: 1910265078080960377
+      pngkey.com-slash-effect-png-1824588_34: 1943045122129153909
+      pngkey.com-slash-effect-png-1824588_35: -2926063851195900237
+      pngkey.com-slash-effect-png-1824588_36: -5006025053176902272
+      pngkey.com-slash-effect-png-1824588_37: 3607009735510366869
+      pngkey.com-slash-effect-png-1824588_38: -8821538743216696039
+      pngkey.com-slash-effect-png-1824588_39: -8769350144122397428
+      pngkey.com-slash-effect-png-1824588_4: -6682977837063699264
+      pngkey.com-slash-effect-png-1824588_40: -6304727724572076812
+      pngkey.com-slash-effect-png-1824588_41: -5560230917512243436
+      pngkey.com-slash-effect-png-1824588_5: 1764285827677362089
+      pngkey.com-slash-effect-png-1824588_6: -7676499925667171489
+      pngkey.com-slash-effect-png-1824588_7: -4610341829284054835
+      pngkey.com-slash-effect-png-1824588_8: -4807622374510888494
+      pngkey.com-slash-effect-png-1824588_9: -8978336013485238612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -208,43 +208,6 @@ TextureImporter:
       bones: []
       spriteID: 548b536c70a4e8640800000000000000
       internalID: 5084082426598504517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rogue_4
-      rect:
-        serializedVersion: 2
-        x: 2203
-        y: 74
-        width: 1267
-        height: 1219
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 320.53323, y: -571.6906}
-        - {x: 512.377, y: -379.86743}
-        - {x: 560.33795, y: -314.78455}
-        - {x: 565.4766, y: -109.259674}
-        - {x: 496.96097, y: 0.35359085}
-        - {x: 633.5, y: -54.45304}
-        - {x: 633.5, y: 267.53592}
-        - {x: 296.55276, y: 608.3647}
-        - {x: 76.5, y: 608.5}
-        - {x: -35.5, y: 406.5}
-        - {x: -306.5, y: 400.5}
-        - {x: -365.5, y: 609.5}
-        - {x: -633.5, y: 608.3647}
-        - {x: -633.5, y: -609.3702}
-        - {x: 257.15628, y: -609.3702}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1280e066b8c7dbc60800000000000000
-      internalID: 7835555864849025057
       vertices: []
       indices: 
       edges: []

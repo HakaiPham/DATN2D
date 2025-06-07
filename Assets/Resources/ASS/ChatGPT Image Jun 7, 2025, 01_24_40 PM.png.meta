@@ -168,6 +168,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -734,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_0: 2307142559731233374
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_1: -6616589100433911032
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_10: -4567129927941590181
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_11: 601161403606939477
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_12: 8669009568183936814
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_13: -6332803154680860641
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_14: 6663254667046626823
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_15: 1521107166401165029
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_16: -3886660913304228630
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_17: -909555724531027127
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_18: 7515042516821553192
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_19: -8088048873766255899
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_2: 8297309175901172775
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_20: 1308015971183259619
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_21: -9103949726009774951
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_22: 815462593744601
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_23: 3990094576485749632
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_24: 8222693799488435632
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_3: -3713662445930177340
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_4: -8221543958514078055
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_5: 8710739846867506375
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_6: -115306688210871077
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_7: 7158736076992534124
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_8: -2452697575163574929
+      ChatGPT Image Jun 7, 2025, 01_24_40 PM_9: 5725832527979142715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
